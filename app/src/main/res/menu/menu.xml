@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miAnasayfa"
+        android:icon="@drawable/ic_home"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/miSepetim"
+        android:icon="@drawable/ic_basket"
+        android:title="Sepetim" />
+    <item
+        android:id="@+id/miEkle"
+        android:icon="@drawable/ic_add"
+        android:title="Ekle"
+        android:visible="false" />
+    <item
+        android:id="@+id/miGirisYap"
+        android:icon="@drawable/ic_login"
+        android:title="Giriş Yap" />
+    <item
+        android:id="@+id/miProfil"
+        android:icon="@drawable/ic_person"
+        android:title="Profilim"
+        android:visible="false" />
+</menu>
